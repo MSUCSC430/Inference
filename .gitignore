@@ -36,3 +36,9 @@ local.properties
 .tern-project
 .springBeans
 .texlipse
+
+# Jekyll
+docs/_site/
+docs/.sass-cache
+docs/.jekyll-metadata
+docs/Gemfile.lock
