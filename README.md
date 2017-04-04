@@ -21,3 +21,30 @@ This is a simple library for analyzing samples of text and assigning them a list
 * Analyzing streaming data to handle very large collections of data
 * Generating code which can deserialize documents while providing more type safety than using, e.g., maps of strings
 
+## Usage
+
+To start using the inference library, add the following repository to your
+pom.xml file
+
+```
+<repositories>
+    <repository>
+        <id>inference-mvn-repo</id>
+        <url>https://raw.github.com/MSUCSC430/Inference/mvn-repo/</url>
+        <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+        </snapshots>
+    </repository>
+</repositories>
+```
+
+And then add the dependency
+
+```
+<dependency>
+    <groupId>edu.murraystate.csis</groupId>
+    <artifactId>inference</artifactId>
+    <version>0.1.0-SNAPSHOT</version>
+</dependency>
+```
